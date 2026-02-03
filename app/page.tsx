@@ -1,11 +1,13 @@
-import Hero from "@/components/layout/Hero";
-import InfoStrip from "@/components/layout/InfoStripe";
+import Hero from "@/components/Home/Hero";
+import InfoStrip from "@/components/Home/InfoStripe";
+import Services from "@/components/Home/Services";
 
 export default function Home() {
   return (
     <main>
       <Hero />
       <InfoStrip />
+      <Services />
     </main>
   );
 }
